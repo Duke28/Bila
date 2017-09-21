@@ -173,7 +173,7 @@
 
 	var exploreAnimate = function() {
 
-		var explore = $('#fh5co-explore');
+		var explore = $('#fh5co-about');
 		if ( explore.length > 0 ) {	
 
 			explore.waypoint( function( direction ) {
@@ -333,7 +333,7 @@
 	};
 
 	var pricingAnimate = function() {
-		var pricing = $('#fh5co-pricing');
+		var pricing = $('#fh5co-partners');
 		if ( pricing.length > 0 ) {	
 
 			pricing.waypoint( function( direction ) {
@@ -461,7 +461,7 @@
 
 	
 	var faqAnimate = function() {
-		var faq = $('#fh5co-faq');
+		var faq = $('#fh5co-footer');
 		if ( faq.length > 0 ) {	
 
 			faq.waypoint( function( direction ) {
@@ -503,7 +503,7 @@
 	};
 
 	var trustedAnimate = function() {
-		var trusted = $('#fh5co-trusted');
+		var trusted = $('#fh5co-partners');
 		if ( trusted.length > 0 ) {	
 
 			trusted.waypoint( function( direction ) {

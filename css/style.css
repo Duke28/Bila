@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #ff3b30;
+  background-color: #1fb5f6;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header #navbar li.active a span:before {
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 #fh5co-header .navbar-brand > span {
-  color: #ff3b30;
+  color: #1fb5f6;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .navbar-brand {
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff3b30;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
-  color: #ff3b30 !important;
+  color: #1fb5f6 !important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header.navbar-fixed-top #navbar li.active a {
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #ff3b30;
+  background-color: #1fb5f6;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 38px;
+  font-size: 34px;
   text-transform: uppercase;
   color: white;
   margin: 0 0 20px 0;
@@ -357,16 +357,21 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.2);
 }
 #fh5co-home .text-inner .call-to-action a.download {
-  border: 2px solid #ff3b30;
-  background: #ff3b30;
+  border: 2px solid #1fb5f6;
+  background: #1fb5f6;
   text-decoration: none !important;
 }
 
-#fh5co-services, #fh5co-testimony, #fh5co-explore, #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
+#fh5co-services, #fh5co-testimony, #fh5co-about, #fh5co-faq, #fh5co-team, #fh5co-partners, #fh5co-footer {
   padding: 5em 0;
 }
+#fh5co-testimony{
+  background: #f1faff;
+
+}
+
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-testimony, #fh5co-explore, #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
+  #fh5co-services, #fh5co-testimony, #fh5co-about, #fh5co-faq, #fh5co-team, #fh5co-partners, #fh5co-footer {
     padding: 2em 0;
   }
 }
@@ -380,11 +385,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.fh5co-explore {
+.fh5co-about {
   padding-bottom: 40px;
 }
 
-.fh5co-explore-bg-color {
+.fh5co-about-bg-color {
   width: 100%;
   background: #f1f1f1;
   padding: 80px 0;
@@ -392,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mt {
-  margin-top: 80px;
+  /*margin-top: 30px;*/
   margin-bottom: 80px;
 }
 .mt h4 {
@@ -433,6 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimony .wrap-testimony {
   position: relative;
   width: 100%;
+  background: #f1faff;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide {
   text-align: center;
@@ -925,7 +931,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-footer #btn-submit {
   color: rgba(255, 255, 255, 0.9) !important;
-  background: #ff3b30 !important;
+  background: #1fb5f6 !important;
 }
 
 .btn {
@@ -1211,3 +1217,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+img.logo-fixed {
+	height: 40px;
+	width: 300px;
+}
