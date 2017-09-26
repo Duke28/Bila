@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #fh5co-header.navbar-fixed-top #navbar li.active a {
-    color: #ff3b30 !important;
+    color: #1fb5f6 !important;
   }
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
