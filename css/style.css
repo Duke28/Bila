@@ -39,11 +39,19 @@ p {
   font-size: 16px;
 }
 
+.mt p {
+  color: #ffffff;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #333;
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+}
+
+.mt h3 {
+  color: #ffffff;
 }
 
 ::-webkit-selection {
@@ -362,11 +370,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 
-#fh5co-services, #fh5co-testimony, #fh5co-about, #fh5co-faq, #fh5co-team, #fh5co-partners, #fh5co-footer {
+#fh5co-services, #fh5co-testimony, #fh5co-faq, #fh5co-team, #fh5co-partners, #fh5co-footer {
   padding: 5em 0;
 }
+#fh5co-about {
+  padding: 0;
+}
 #fh5co-testimony{
-  background: #f1faff;
+  background: #0269ed;
 
 }
 
@@ -387,11 +398,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-about {
   padding-bottom: 40px;
+  background: rgb(2, 105, 237)
+}
+
+.fh5co-about-heading {
+  width: 100%;
+  background: rgb(2, 105, 237);
+  padding-top: 70px;
 }
 
 .fh5co-about-bg-color {
   width: 100%;
-  background: #f1f1f1;
+  background: #0269ed;
   padding: 80px 0;
   margin-bottom: 0;
 }
@@ -404,12 +422,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-left: 40px;
   font-size: 20px;
+  color: #ffffff;
 }
 .mt h4 i {
   position: absolute;
   left: 0;
   top: 0;
-  color: #0269ed;
+  color: #ffffff;
 }
 .mt > div {
   margin-bottom: 40px;
@@ -426,19 +445,20 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 30px;
   margin-bottom: 10px;
   position: relative;
+  color: #ffffff;
 }
 .mt .list-nav li i {
   position: absolute;
   left: 0;
   top: 0;
   font-size: 18px;
-  color: #0269ed;
+  color: #ffffff;
 }
 
 #fh5co-testimony .wrap-testimony {
   position: relative;
   width: 100%;
-  background: #f1faff;
+  background: #0269ed;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide {
   text-align: center;
@@ -482,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-testimony .wrap-testimony .testimony-slide blockquote p {
   font-style: italic;
-  color: #8f989f;
+  color: #ffffff;
   font-size: 20px;
   line-height: 1.6em;
 }
@@ -765,7 +785,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0 0;
   font-size: 40px;
   font-weight: 400;
-  color: #333;
+  color: 333#;
   position: relative;
   display: block;
   padding-bottom: 10px;
@@ -791,7 +811,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 50px;
   height: 2px;
-  background: #0269ed;
+  background: #ffffff;
   left: 50%;
   margin-left: -25px;
   bottom: 0;
